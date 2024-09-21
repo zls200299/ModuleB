@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner
+        android:entries="@array/arr1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></Spinner>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_5"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"></ImageView>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:text="智慧边海防整体解决方案"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="智慧边海防整体解决方案则利用物联网、大数据、云计算、边缘计算、人工智能、移动互联网等新一代信息技术，构建基于陆、海、空、天并结合边民大众的五类立体化感知系统。将多种航天高性能、高质量和高可靠性的智能化装备应用到了海域防护方面。"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_7"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"></ImageView>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:text="晶圆代工解决方案"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="中芯国际是一家纯晶圆代工厂，向全球客户提供0.35微米到14纳米8寸和12寸芯片代工与技术服务。中芯国际除高端的制造能力之外，还为客户提供全方位的晶圆代工解决方案，包括光罩制造、IP研发及后段辅助设计服务等一站式服务(包含凸块加工服务、晶圆探测，以及最终的封装、测试等)。全面一体的晶圆代工解决方案,目标是更有效的帮助客户降低成本,以缩短产品上市时间。 "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_8"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"></ImageView>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:text="中国商飞语音通信解决方案"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="客户需求
+随着航空业不断发展，中国商飞对现代化办公通信提出了更高的要求，其分布于全球各地的各个下辖机构之间、办事处之间的日 常沟通也对公司通信成本带来了很大压力，公司迫切需要升级原有的内部办公通信系统。
+解决方案
+中国商飞部署了几百台亿联SIP-T27P与SIP-T21P E2话机，用于各机构、各办事处之间的通讯交流，有效应对业务增长带来的各种沟通挑战， 同时又大大节约了通讯成本。
+"
+                android:textSize="20dp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_6"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"></ImageView>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:text="华为智慧园区解决方案"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:text="园区是工作与生活的载体，是经济发展的核心抓手，是构建万物互联的智能世界的落脚点。
+传统园区的信息化往往是孤立的烟囱式子系统建设，数据不互通，业务难融合，长期面临着服务体验差、综合安防弱、运营效率低、管理成本高、业务创新难等痛点。
+华为智慧园区解决方案源于自身管理变革和数字化转型实践，依托数字平台，联合生态伙伴，实现园区整体智慧化，使能业务创新，提升运营效率，引领至简体验。
+"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

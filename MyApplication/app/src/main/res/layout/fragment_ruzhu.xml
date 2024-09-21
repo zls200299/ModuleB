@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<EditText
+    android:layout_marginTop="100dp"
+    android:layout_gravity="center"
+    android:hint="请填写厂商名称"
+    android:layout_width="600dp"
+    android:layout_height="80dp"></EditText>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="请填写厂商联系人"
+        android:layout_width="600dp"
+        android:layout_height="80dp"></EditText>
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="请填写联系人电话"
+        android:layout_width="600dp"
+        android:layout_height="80dp"></EditText>
+    <Button
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:text="提交"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_tijiao"
+        android:layout_width="400dp"
+        android:layout_height="70dp"></Button>
+</LinearLayout>

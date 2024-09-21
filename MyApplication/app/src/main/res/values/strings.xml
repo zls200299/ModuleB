@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="arr">
+        <item>智能装备</item>
+        <item>工业软件</item>
+        <item>工业服务</item>
+        <item>工业IT</item>
+        <item>工业互联网</item>
+    </string-array>
+    <string-array name="arr1">
+        <item>产品与解决方案分类1</item>
+        <item>产品与解决方案分类2</item>
+        <item>产品与解决方案分类3</item>
+        <item>产品与解决方案分类4</item>
+        <item>产品与解决方案分类5</item>
+        <item>产品与解决方案分类6</item>
+    </string-array>
+</resources>
